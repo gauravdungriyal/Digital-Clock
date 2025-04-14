@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container{
+    text-align: center;
+}
+.container h1{
+    position: relative;
+    background-color: blue;
+    color: white;
+    width: 3em;
+    margin: auto;
+    bottom: -16px;
+    z-index: 1;
+}
+.clock{
+    border: 25px solid gray;
+    font-size: 4rem;
+    padding: 10px;
+}
